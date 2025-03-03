@@ -17,7 +17,7 @@
         }
     
     body{
-    background-color: lightsteelblue;
+    background-color: #fffded;
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -62,6 +62,7 @@ h3{
     font-family: "Warbler Variable";
     line-height: 10px;
     animation: weightChange 7s infinite;
+    color: #6d7b60
 }
 
 h4{
@@ -70,7 +71,20 @@ h4{
     font-size: 5em;
     font-family: "Warbler Variable Italic";
     line-height: 10px;
-    animation: weightChange 7s infinite;
+    animation: weightChangeItalic 7s infinite;
+    margin: 60px;
+    color: #6d7b60
+}
+
+.paragraph-hero{
+    text-align: center;
+    font-family: "Warbler Variable Italic";
+    line-height: 10px;
+    font-size: 1.5em;
+}
+
+p{
+    color: #6d7b60
 }
 
 @keyframes weightChange {
@@ -81,6 +95,17 @@ h4{
     }
     
 }
+
+@keyframes weightChangeItalic {
+    50%{
+        font-variation-settings: "opsz" 15, "wght" 400;
+    }
+    0%, 100%
+       {font-variation-settings: "opsz" 96, "wght" 700;
+    }
+    
+}
+
 /* variable font that changes on hover */
 .variable-font{
     font-weight:1 ;
