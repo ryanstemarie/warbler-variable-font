@@ -1,16 +1,23 @@
 @font-face {
-    src: url("./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff2") format("woff2"),
-         url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.woff') format("woff"),
-        url('./fonts/FormaDJRVariableNormal[opsz\,slnt\,wght]-Edu.ttf') format('truetype');
+    src: url("fonts/WarblerVariable[opsz\,wght]-Edu.woff") format("woff"),
+         url("fonts/WarblerVariable[opsz\,wght]-Edu.woff2") format("woff2");
 
-    font-family: 'Forma';
+    font-family: 'Warbler Variable';
     font-style: normal;
     font-weight: normal;
     }
+
+    @font-face {
+        src: url("fonts/WarblerVariable-Italic[opsz\,wght]-Edu.woff") format("woff"),
+             url("fonts/WarblerVariable-Italic[opsz\,wght]-Edu.woff2") format("woff2");
+    
+        font-family: 'Warbler Variable Italic';
+        font-style: italic;
+        font-weight: normal;
+        }
     
     body{
     background-color: lightsteelblue;
-    font-family: 'Forma';
 }
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
@@ -52,14 +59,25 @@ h3{
     font-weight:20; 
     text-align: center;
     font-size: 5em;
+    font-family: "Warbler Variable";
+    line-height: 10px;
+    animation: weightChange 7s infinite;
+}
+
+h4{
+    font-weight:20; 
+    text-align: center;
+    font-size: 5em;
+    font-family: "Warbler Variable Italic";
+    line-height: 10px;
     animation: weightChange 7s infinite;
 }
 
 @keyframes weightChange {
     0%, 100%{
-        font-variation-settings: "opsz" 16, "wght" 200, "slnt" 0;
+        font-variation-settings: "opsz" 15, "wght" 400;
     }
-    50%{font-variation-settings: "opsz" 16, "wght" 900, "slnt" -13;
+    50%{font-variation-settings: "opsz" 96, "wght" 700;
     }
     
 }
