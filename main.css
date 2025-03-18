@@ -37,15 +37,15 @@ grid-template-areas:
     "a a";
 }
 
-.history {
+#history {
 grid-area: h;
 }
 
-.variations{
+#variations{
 grid-area: v;
 }
 
-.alphabet {
+#alphabet {
 grid-area: a;
 }
 }
