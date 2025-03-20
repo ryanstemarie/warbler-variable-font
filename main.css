@@ -82,6 +82,16 @@ h4{
     color: #6d7b60
 }
 
+h5{
+    font-weight:20; 
+    text-align: center;
+    font-size: 2em;
+    font-family: "Warbler Variable";
+    line-height: 10px;
+    animation: weightChange 7s infinite;
+    color: #6d7b60
+}
+
 .paragraph-hero{
     text-align: center;
     font-family: "Warbler Variable Italic";
@@ -114,6 +124,32 @@ p{
     }
     
 }
+
+/* animations for variations section */
+.weight{
+    animation: variationsWeight 3s infinite;
+}
+
+@keyframes variationsWeight {
+    0%, 100%{
+        font-variation-settings: "wght" 400;
+    }
+    50%{font-variation-settings: "wght" 700;
+     }
+}
+
+.opticalsize{
+    animation: variationsOpticalSize 3s infinite;
+}
+
+@keyframes variationsOpticalSize {
+    0%, 100%{
+        font-variation-settings: "opsz" 15;
+    }
+    50%{font-variation-settings: "opsz" 96;
+     }
+}
+
 
 /* variable font that changes on hover */
 .variable-font{
