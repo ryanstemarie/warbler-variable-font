@@ -44,7 +44,8 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
     "h v"
-    "a a";
+    "a a"
+    "d d";
 }
 
 #history {
@@ -58,6 +59,22 @@ grid-area: v;
 #alphabet {
 grid-area: a;
 }
+
+#download{
+grid-area: d;
+}
+
+.outline {
+    background-color: transparent;
+    color: #fff0de;
+    border: 2px solid #fff0de;
+    transition: all 0.3s ease;
+}
+
+.outline:hover {
+    background-color: #fff0de;
+    color: #fff;
+
 }
 /* CSS for the footer */
 footer{
