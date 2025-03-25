@@ -44,8 +44,7 @@ grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
     "h v"
-    "a a"
-    "d d";
+    "a a";
 }
 
 #history {
@@ -62,6 +61,7 @@ grid-area: a;
 
 #download{
 grid-area: d;
+}
 }
 
 .outline {
@@ -220,4 +220,3 @@ p{
     text-align: center;
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
 }
-
