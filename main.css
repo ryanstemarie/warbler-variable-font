@@ -286,7 +286,7 @@ p{
 
 
 /* variable font that changes on hover */
-.variable-font{
+/* .variable-font{
     font-weight:1 ;
     height:100vh;
     font-size: 10em;
@@ -309,4 +309,4 @@ p{
     margin: 0;
     text-align: center;
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
-}
+} */
