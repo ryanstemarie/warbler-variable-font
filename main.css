@@ -76,11 +76,9 @@ grid-template-areas:
     "c c d q";
 }
 
-
-
 #download{
 grid-area: d;
-background-color: #6d7b60;
+background-color: #414D3A;
 padding-left: 50px;
 padding-right: 50px;
 padding-bottom: 40px;
@@ -103,11 +101,13 @@ padding-top: 20px;
     grid-area: q;
     background-color: #fff0de;
 }
-
-.character{
+ 
+.characters{
     color: #6d7b60;
     font-family: "Warbler Variable";
-    font-size: 10em;
+    font-size: 8em;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .outline {
@@ -127,7 +127,7 @@ padding-top: 20px;
 
 .outline:hover {
     background-color: #fff0de;
-    color: #6d7b60;
+    color: #414D3A;
 
 }
 /* CSS for the footer */
@@ -163,7 +163,7 @@ h3{
     font-family: "Warbler Variable";
     line-height: 10px;
     animation: weightChange 7s infinite;
-    color: #6d7b60
+    color: #414D3A;
 }
 
 h4{
@@ -231,8 +231,9 @@ p{
 }
 
 .green{
-    color: #6d7b60;
+    color: #414D3A;
     padding-left: 50px;
+    font-weight: 700;
 }
 
 .fancy{
