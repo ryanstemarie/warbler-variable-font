@@ -17,21 +17,22 @@
         }
     
     body{
-    background-color: #fffded;
+    background-color: #FFF0DF;
 }
 
-/* header { */
-    /* background-image: url(assets/warblerheroimage.png);
+.hero {
+    background-image: url(assets/warblerheroimage.png);
     background-size: cover;
     background-position: center;
-    height: 200px; */
+    height: 400px; 
+    margin-top:-50px;
 
-/* } */
+} 
 
 
 /* how the page wrapper will appear on mobile */
 .page-wrapper{
-    width: min(100% - 2rem, 100ch);
+    /* width: min(100% - 2rem, 100ch); */
     margin-inline: auto;
 }
 /* how the page wrapper appears on desktop */
@@ -39,29 +40,74 @@
 @media only screen and (min-width:800px){
 .page-wrapper{
 display: grid;
-grid-gap: 25px;
+/* grid-gap: 25px; */
 grid-template-columns: 1fr 1fr;
 grid-template-rows: auto;
 grid-template-areas: 
     "h v"
-    "a a";
+    "a a"
+    "d d";
 }
 
 #history {
 grid-area: h;
+background-color: #3C3027;
+padding-left: 50px;
+padding-bottom: 20px;
+padding-top: 20px;
 }
 
 #variations{
 grid-area: v;
+background-color: #3C3027;
+padding-right: 50px;
+padding-top: 20px;
 }
 
 #alphabet {
 grid-area: a;
+background-color: #fff0de;
+padding-bottom: 20px;
+padding-top: 20px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: auto;
+grid-template-areas: 
+    "c c d q";
 }
+
+
 
 #download{
 grid-area: d;
+background-color: #6d7b60;
+padding-left: 50px;
+padding-right: 50px;
+padding-bottom: 40px;
+padding-top: 20px;
 }
+}
+
+.full-alphabet{
+    grid-area: c;
+    background-color: #fff0de;
+
+}
+
+.a-letterform{
+    grid-area: d;
+    background-color: #fff0de;
+}
+
+.q-letterform{
+    grid-area: q;
+    background-color: #fff0de;
+}
+
+.character{
+    color: #6d7b60;
+    font-family: "Warbler Variable";
+    font-size: 10em;
 }
 
 .outline {
@@ -69,33 +115,45 @@ grid-area: d;
     color: #fff0de;
     border: 2px solid #fff0de;
     transition: all 0.3s ease;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: "Warbler Variable";
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    margin-top: 15px;
 }
 
 .outline:hover {
     background-color: #fff0de;
-    color: #fff;
+    color: #6d7b60;
 
 }
 /* CSS for the footer */
 footer{
-    background-color: gray;
+    background-color: #3C3027;
+    color: #fff0de;
+    text-align: center;
+    padding: 15px;
 }
 
 /* variable font animation */
 
 h1{
     font-family: "Warbler Variable";
-    color: #6d7b60;
+    color: #fff0de;
     font-size: 1.5em;
-    padding-top: 40px;
+    letter-spacing: 2px;
 }
 
 h2{
     font-family: "Warbler Variable";
-    color: #6d7b60;
+    color: #fff0de;
     font-size: 1.5em;
     padding-top: 40px;
     text-align: right;
+    letter-spacing: 2px;
 }
 
 h3{
@@ -111,13 +169,13 @@ h3{
 h4{
     font-weight:20; 
     text-align: center;
-    font-size: 5em;
+    font-size: 6em;
     font-family: "Warbler Variable Italic";
     line-height: 10px;
     animation: weightChangeItalic 7s infinite;
     margin: 60px;
     color: #6d7b60;
-    padding-top: 100px;
+    padding-top: 170px;
 }
 
 h5{
@@ -127,13 +185,14 @@ h5{
     font-family: "Warbler Variable";
     line-height: 10px;
     animation: weightChange 7s infinite;
-    color: #6d7b60;
+    color: #fff0de;
 }
 
 h6{
     font-family: "Warbler Variable";
-    color: #6d7b60;
+    color: #fff0de;
     font-size: 1.5em;
+    letter-spacing: 2px;
 }
 
 .paragraph-hero{
@@ -141,13 +200,43 @@ h6{
     font-family: "Warbler Variable Italic";
     line-height: 10px;
     font-size: 1.5em;
+    color: #6d7b60;
+    font-weight: 600;
 }
 
 p{
-    color: #6d7b60;
+    color: #fff0de;
     font-family: "Warbler Variable";
     font-size: 1em;
+    letter-spacing: 0.5px;
+    line-height: 1.35em;
 
+}
+
+.languages{
+    padding-top: 40px;
+}
+
+.drops:first-of-type:first-letter {
+    height: 0.5em;
+    margin: 0.09em 0 -0.05em 0;
+    padding: 0 0.2em 0 0;
+    font-size: 4em;
+    line-height: 0.7em;
+    float: left;
+  }
+
+.right{
+    text-align: right;
+}
+
+.green{
+    color: #6d7b60;
+    padding-left: 50px;
+}
+
+.fancy{
+    font-family: "Warbler Variable Italic";
 }
 
 @keyframes weightChange {

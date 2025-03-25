@@ -8,7 +8,7 @@
   
   header {
     /* where to set the color of the nav bar */
-      background: lightgray;
+      background: #6d7b60;
       text-align: center;
       top:0px;
       position: fixed;
@@ -45,9 +45,10 @@
   }
   
   nav a {
-      color: black;
+      color: #FFF0DF;
+      font-family: Warbler Variable;
       text-decoration: none;
-      font-size: 1.2rem;
+      font-size: 1.2em;
       text-transform: uppercase;
       opacity: 0;
       transition: opacity 100ms ease-in-out;
