@@ -25,7 +25,7 @@
     background-size: cover;
     background-position: center;
     height: 400px; 
-    margin-top:-50px;
+    margin-top: -32px;
 
 } 
 
@@ -86,6 +86,26 @@ padding-top: 20px;
 }
 }
 
+#download button{
+    background-color: transparent;
+    color: #fff0de;
+    border: 2px solid #fff0de;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    padding: 5px 15px;
+    font-family: "Warbler Variable";
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+#download button:hover {
+    background-color: #fff0de;
+    color: #414D3A;
+}
+
 .full-alphabet{
     grid-area: c;
     background-color: #fff0de;
@@ -110,26 +130,7 @@ padding-top: 20px;
     padding-top: 20px;
 }
 
-.outline {
-    background-color: transparent;
-    color: #fff0de;
-    border: 2px solid #fff0de;
-    transition: all 0.3s ease;
-    text-decoration: none;
-    padding: 5px 15px;
-    font-family: "Warbler Variable";
-    font-size: 1em;
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    display: inline-block;
-    margin-top: 15px;
-}
 
-.outline:hover {
-    background-color: #fff0de;
-    color: #414D3A;
-
-}
 /* CSS for the footer */
 footer{
     background-color: #3C3027;
@@ -151,7 +152,7 @@ h2{
     font-family: "Warbler Variable";
     color: #fff0de;
     font-size: 1.5em;
-    padding-top: 40px;
+    padding-top: 20px;
     text-align: right;
     letter-spacing: 2px;
 }
@@ -183,7 +184,7 @@ h5{
     text-align: right;
     font-size: 3.5em;
     font-family: "Warbler Variable";
-    line-height: 10px;
+    line-height: 2px;
     animation: weightChange 7s infinite;
     color: #fff0de;
 }
