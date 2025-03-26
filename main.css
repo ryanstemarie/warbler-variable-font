@@ -16,8 +16,17 @@
         font-weight: normal;
         }
     
-    body{
+body{
     background-color: #FFF0DF;
+    cursor: url(assets/cursorgreen.svg), auto;
+}
+
+a:hover{
+    cursor: url(assets/cursortan.svg), auto;
+}
+
+button:hover{
+    cursor: url(assets/cursortan.svg), auto;
 }
 
 .hero {
