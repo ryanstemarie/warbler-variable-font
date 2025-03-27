@@ -53,7 +53,7 @@ button:hover{
         "a"
         "d";
     }
-    #history {
+        #history {
         grid-area: h;
         background-color: #3C3027;
         padding-left: 50px;
