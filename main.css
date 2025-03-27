@@ -52,6 +52,47 @@ button:hover{
         "a"
         "d";
     }
+    #history {
+        grid-area: h;
+        background-color: #3C3027;
+        padding-left: 50px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-right: 50px;
+        }
+        
+        #variations{
+        grid-area: v;
+        background-color: #3C3027;
+        padding-right: 50px;
+        padding-top: 20px;
+        }
+        
+        #alphabet {
+        grid-area: a;
+        background-color: #fff0de;
+        padding-bottom: 60px;
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "c" 
+            "c" 
+            "d" 
+            "q";
+        }
+        
+        #download{
+        grid-area: d;
+        background-color: #414D3A;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 40px;
+        padding-top: 20px;
+        }
+        }
+
 }
 
 /* how the page wrapper appears on desktop */
