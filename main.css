@@ -29,6 +29,7 @@ button:hover{
     cursor: url(assets/cursortan.svg), auto;
 }
 
+
 .hero {
     background-image: url(assets/warblerheroimage.png);
     background-size: cover;
@@ -91,9 +92,9 @@ button:hover{
         padding-bottom: 40px;
         padding-top: 20px;
         }
-        }
+     }
 
-}
+
 
 /* how the page wrapper appears on desktop */
 
