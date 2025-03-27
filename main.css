@@ -40,10 +40,20 @@ button:hover{
 
 
 /* how the page wrapper will appear on mobile */
-.page-wrapper{
-    /* width: min(100% - 2rem, 100ch); */
-    margin-inline: auto;
+@media only screen and (max-width:800px){
+    .page-wrapper{
+    display: grid;
+    /* grid-gap: 25px; */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "h"
+        "v"
+        "a"
+        "d";
+    }
 }
+
 /* how the page wrapper appears on desktop */
 
 @media only screen and (min-width:800px){
@@ -295,8 +305,8 @@ p{
 }
 
 
-/* variable font that changes on hover */
-/* .variable-font{
+variable font that changes on hover
+.variable-font{
     font-weight:1 ;
     height:100vh;
     font-size: 10em;
@@ -319,4 +329,4 @@ p{
     margin: 0;
     text-align: center;
     font-variation-settings: "wght" 120, "wdth" 0, "XXXX" 100;
-} */
+}
