@@ -1,21 +1,22 @@
 @font-face {
     src: 
-    /* url("fonts/WarblerVariable[opsz\,wght]-Edu.woff") format("woff"), */
-         url("fonts/WarblerVariable[opsz\,wght]-Edu.woff2") format("woff2");
+        url("fonts/WarblerVariable[opsz\,wght]-Edu.woff") format("woff"),
+        url("fonts/WarblerVariable[opsz\,wght]-Edu.woff2") format("woff2");
 
     font-family: 'Warbler Variable';
     font-style: normal;
     font-weight: normal;
     }
 
-    @font-face {
-        src: url("fonts/WarblerVariable-Italic[opsz\,wght]-Edu.woff") format("woff"),
-             url("fonts/WarblerVariable-Italic[opsz\,wght]-Edu.woff2") format("woff2");
+@font-face {
+    src: 
+        url("fonts/WarblerVariable-Italic[opsz\,wght]-Edu.woff") format("woff"),
+        url("fonts/WarblerVariable-Italic[opsz\,wght]-Edu.woff2") format("woff2");
     
-        font-family: 'Warbler Variable Italic';
-        font-style: italic;
-        font-weight: normal;
-        }
+    font-family: 'Warbler Variable Italic';
+    font-style: italic;
+    font-weight: normal;
+    }
     
 body{
     background-color: #FFF0DF;
