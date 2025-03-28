@@ -145,6 +145,10 @@ padding-right: 50px;
 padding-bottom: 40px;
 padding-top: 20px;
 }
+
+.fancy{
+    font-family: "Warbler Variable Italic";
+}
 }
 
 #download button{
