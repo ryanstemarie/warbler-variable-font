@@ -92,7 +92,20 @@ button:hover{
         padding-bottom: 40px;
         padding-top: 20px;
         }
-     }
+     
+        p{
+            color: #fff0de;
+            font-family: "Warbler Variable";
+            font-size: 1em;
+            letter-spacing: 0.5px;
+            line-height: 1.5em;
+        }
+    
+    }
+
+
+
+
 
 
 
@@ -145,11 +158,11 @@ padding-right: 50px;
 padding-bottom: 40px;
 padding-top: 20px;
 }
+}
 
-.fancy{
-    font-family: "Warbler Variable Italic";
-}
-}
+
+
+
 
 #download button{
     background-color: transparent;
@@ -276,7 +289,6 @@ p{
     font-size: 1em;
     letter-spacing: 0.5px;
     line-height: 1.35em;
-
 }
 
 .languages{
@@ -290,7 +302,7 @@ p{
     font-size: 4em;
     line-height: 0.7em;
     float: left;
-  }
+}
 
 .right{
     text-align: right;
